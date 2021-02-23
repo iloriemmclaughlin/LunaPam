@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--
+    Name: Iloriem McLaughlin
+    Date Created: 1/23/2021
+    Most recent revision:
+-->
+<html lang="en">
+    <head>
+        <title>Menu</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css">
+        <link href="styles/open-iconic-master/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        
+        <style>            
+            header {
+                font-family: "Sofia";
+            }
+            
+            th {
+                text-align: center;
+                text-weight: 1.5em;
+				padding-top: 10px;
+            }
+            
+            td {
+                text-align: center;
+				padding-bottom: 10px;
+				font-size: 1em;
+				padding-right: 5px;
+				padding-left: 5px;
+				}
+            
+            table.food {
+                margin-left: auto;
+                margin-right: auto;
+            }
+		
+		table.drinks {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        table.drinks th, table.drinks td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: left;
+        }
+        
+        table.drinks thead {
+            background-color: #0d1f2d;
+            color: #e4c3ad;
+        }
+        
+        table.drinks tbody tr:nth-child(even) {
+            background-color: #9ea3b0;
+        }
+
+        table.drinks tbody tr:nth-child(odd) {
+            background-color: #fae1df;
+        }      
+        
+        table.drinks tbody {
+            color: #0d1f2d;
+        }
+    
+        </style>
+        
+    </head>
+    
+    <body>
+        <header>
+           <h1>Raquelita's</h1>
+        </header>
+        
+        <nav>
+            <hr />
+            <p><a class="btn badge-pill" href="homepage.html"><span class="oi oi-home" title="home" aria-hidden="true"></span></a>
+            <a class="btn badge-pill" href="menu.html">Menu</a>
+            <a class="btn badge-pill" href="contact-us.html">Contact Us</a>
+            </p>
+            <hr />
+        </nav>
+        
+        <table class="food">
+            <tr>
+                <th>Burger and Fries</th>
+                <th>Hot Dog and Chips</th>
+                <th>Italian Sausage and Peppers</th>
+            </tr>
+            <tr>
+                <td>An American Classic!<br /> Your choice - with or without cheese<br /> Pickle, onion, tomato, and lettuce<br /> Served with our famous thick cut<br /> french fries<br /> $7.95</td>
+                <td>A Summer Classic!<br /> Your choice - white or wheat bun<br /> Relish, mustard, and ketchup<br /> Served with our house-made chips<br /> $7.95</td>
+                <td>An All-Time Favorite!<br /> Your choice - mild or spicy cole slaw<br /> Served with garlic mashers<br /> $10.95</td>
+            </tr>
+            <tr>
+                <th>Tenderloin Sandwich and Chips</th>
+                <th>House Salad</th>
+                <th>Brisket Sandwich and Fries</th>
+            </tr>
+            <tr>
+                <td>Really Hits the Spot!<br /> Plain or Sesame Bun<br /> Pickle, onion, tomato, and lettuce<br /> Served with our house-made chips<br /> $8.95</td>
+                <td>On the Lighter Side<br /> Your choice - with or without cheese<br /> Iceberg lettuce, tomatoes, peppers<br /> Thousand Island or Ranch Dressing<br /> Served with a dinner roll<br /> $6.95</td>
+                <td>A Taste of Texas!<br /> Smoked Brisket on thick-cut<br /> Texas Toast<br /> Cole Slaw<br /> Served with our famous thick-cut french fries<br /> $7.95</td>
+            </tr>
+        </table>
+             
+		<table class="drinks">
+           <thead>
+                <tr>
+                    <th colspan="2">Beverages</th>
+                </tr>
+           </thead>
+           <tbody>
+                <tr>
+                    <td>Root Beer</td>
+                    <td>$3.00</td>
+                </tr>
+                <tr>
+                    <td>Bottled Water</td>
+                    <td>$1.25</td>
+                </tr>
+                <tr>
+                    <td>Lemonade</td>
+                    <td>$1.00</td>
+                </tr>
+                <tr>
+                    <td>Iced Tea</td>
+                    <td>$1.25</td>
+                </tr>
+           </tbody>
+        </table>
+        
+        <footer>
+        <hr />
+            <p>123 Penny Lane, Victoria, MN 55123</p>
+            <p>952-555-1234</p>
+        <hr />
+        
+        </footer>
+        <script src="js/jquery-3.3.1.min.js"></script>
+       <script src="js/popper.min.js"></script>
+       <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+/*
+Creator: Iloriem McLaughlin
+Date created: 1/26/2021
+Date last modified:
+*/
+
+header, footer {
+    background-color: #0d1f2d;
+    color: #fae1df;
+    height: 200px;
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+}
+
+body {
+    background-color: #9ea3b0;
+    font-family:arial, helvetica, sans-serif;
+    color: #0d1f2d;
+    max-width: 1200px;
+    margin: auto;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+nav a {
+    background-color: #0d1f2d;
+    color: #fae1df; 
+
+}
+
+nav a:visited {
+    color: #e4c3ad
+}
+
+nav a:hover {
+    font-weight: bold
+}
+
+nav a:active {
+    text-decoration: none
+}
